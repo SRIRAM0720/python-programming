@@ -8,9 +8,9 @@ if isinstance(a,str) and isinstance(b,str) and isinstance(c,str):
         a=int (a)
         b=int (b)
         c=int (c)
-        if(b<a>c):
+        if((b<a) and (a>c)):
             print("a is Greater")
-        elif(a<b>c):
+        elif((a<b) and (b>c)):
             print("b is Greater")
         else:
             print("c is greater")
