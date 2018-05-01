@@ -1,9 +1,12 @@
- num=input('Enter a number')
-  try:
-    val=int(num)
-    if num == str(num)[::-1]:
-      print('The given number is Palindrome')
-    else:
-      print('The given number is not a palindrome')
-except ValueError:
-  print("That's not a valid number")
+n=int(input("Enter number"))
+temp=n
+rev=0
+while(n>0):
+     dig=n%10
+     rev=rev*10+dig
+     n=n//10
+if(temp==rev)
+    print("The number is a palindrome")
+ else:
+    print("The number is a palindrome")
+   
